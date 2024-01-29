@@ -1,0 +1,15 @@
+.notifications-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: relative;
+  box-sizing: border-box;
+}

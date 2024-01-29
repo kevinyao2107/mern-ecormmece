@@ -1,0 +1,126 @@
+.content-order__btn-1 {
+  font-size: 0.9rem;
+  margin: 0px 0px 20px 0px;
+  border-bottom: 3px solid rgb(129, 8, 185);
+  display: inline-block;
+  color: #310665;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.content-order__btn-2,
+.content-order__btn-1 {
+  font-size: 0.9rem;
+  margin: 0px 0px 20px 0px;
+  border-bottom: 3px solid rgba(172, 171, 172, 0.63);
+  display: inline-block;
+  color: #2b2a2c;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  cursor: pointer;
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+.content-order__btn-2.active,
+.content-order__btn-1.active {
+  border-bottom: 3px solid rgb(129, 8, 185);
+  color: #310665;
+  opacity: 1;
+}
+.content-order__items {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content-order__item {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  margin: 0px;
+  border-radius: 10px;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.content-order__item-left {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content-order__item-left__header {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content-order__item-left__header-delevery {
+  display: flex !important;
+  align-items: stretch !important;
+}
+.content-order__item-left__header-delevery h5 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.content-order__item-left__header-delevery span {
+  display: block;
+  margin-left: 10px;
+  font-weight: 500;
+  opacity: 0.4;
+  margin-top: -2px;
+}
+.content-order__item-left__header-sect h5 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.95rem;
+}
+
+.content-order__item-left__header-sect {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+
+.content-order__item-left__header-sect span {
+  margin-top: 2px;
+  display: block;
+  font-weight: 500;
+  font-size: 1.1rem;
+  opacity: 0.4;
+}
+
+.content-order__item-left__bottom {
+  font-weight: 500;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.content-order__right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-around;
+}
+.content-order__right img {
+  height: 150px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content-order__right span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #25054d;
+}

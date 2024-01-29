@@ -1,0 +1,62 @@
+.account-setting {
+  display: grid;
+  grid-template-columns: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.085);
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  gap: 40px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.account-setting__img {
+  position: relative;
+}
+
+.account-setting__img img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.account-setting__img label {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+.account-setting__img button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #7610a5;
+}
+.account-setting__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.account-setting__form .text-input {
+  margin-bottom: 10px;
+}
+
+.account-setting__form .text-input:focus {
+  border: 2px solid #7610a5;
+}
+
+@media (min-width: 768px) {
+  .account-setting {
+    grid-template-columns: 10% auto;
+
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 40px;
+  }
+
+  .account-setting__img label {
+    top: 10px;
+    right: -5px;
+  }
+}

@@ -1,0 +1,83 @@
+.main-account {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main-account__img {
+  height: 70px;
+  width: 70px;
+}
+
+.main-account__img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.main-account__description {
+  margin-left: 0px;
+  width: 100%;
+}
+
+.main-account__description h4 {
+  padding: 0px 0px 10px 0px;
+  margin: 0px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.main-account__description-items {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.main-account__description-item {
+  padding-bottom: 8px;
+  width: 100%;
+  display: flex;
+}
+
+.main-account__description-item span:first-child {
+  width: 50%;
+  opacity: 0.6;
+  font-weight: 500;
+}
+.main-account__description-item span:last-child {
+  font-weight: 500;
+}
+
+.main-account__btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(60, 18, 100);
+  cursor: pointer;
+  right: 20px;
+  top: 20px;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .main-account__img {
+    height: 150px;
+    width: 150px;
+  }
+  .main-account {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px;
+  }
+  .main-account__description {
+    margin-left: 40px;
+    width: 40%;
+  }
+}

@@ -1,0 +1,50 @@
+.new-product {
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.new-product__form {
+  width: 100%;
+}
+
+.new-product__form .text-input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.new-product__form-specifi {
+  display: flex;
+  align-items: center;
+}
+
+.new-product__form-specifi .text-input:first-child {
+  margin-right: 10px;
+}
+
+.new-product__form__items {
+  list-style: none;
+  padding: 0px;
+}
+
+.new-product__form__item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ece4f1;
+  margin-bottom: 10px;
+  padding: 5px 20px 5px 5px;
+  position: relative;
+}
+
+.new-product__form__item span:first-child {
+  margin-right: 20px;
+}
+
+.new-product__form__item-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

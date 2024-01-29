@@ -1,0 +1,17 @@
+.favorite {
+  width: 97%;
+  margin: 20px auto;
+}
+.favorite__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 350px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .favorite {
+    width: 85%;
+  }
+}
